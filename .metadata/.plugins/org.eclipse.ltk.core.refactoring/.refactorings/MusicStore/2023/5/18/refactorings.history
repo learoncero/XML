@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;MusicStore/music_store.xml&apos; to &apos;store.xml&apos;" description="Rename resource &apos;music_store.xml&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="music_store.xml" name="store.xml" stamp="1683036389868" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;MusicStore/store (1).xsl&apos; to &apos;store.xsl&apos;" description="Rename resource &apos;store (1).xsl&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="store (1).xsl" name="store.xsl" stamp="1683127616778" updateReferences="true"/>
+</session>

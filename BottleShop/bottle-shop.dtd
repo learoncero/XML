@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT bottle-shop (brewery*, beverage*)>
+
+<!ELEMENT brewery EMPTY>
+<!ATTLIST brewery
+    id      ID #REQUIRED
+    name    CDATA #REQUIRED
+    country CDATA #IMPLIED
+>
+
+<!ELEMENT drink-at EMPTY>
+<!ATTLIST drink-at
+    min-temp    CDATA #REQUIRED
+    max-temp    CDATA #REQUIRED
+    unit        (C | F) #REQUIRED
+>
+
+<!ELEMENT image (#PCDATA)>
+
+<!-- Hier kommen Ihre Ergänzungen. Beachten Sie:
+
+* Für jedes beverage werden immer exakt zwei drink-at Angaben gemacht.
+* Das Element package hat lediglich Attribute und keinen element-content.
+* Allfällige Referenzen zwischen Elementen sollen syntaktisch prüfbar sein.
+* Das type Attribut des package-Elementes soll nur die im Beispiel vorhandenen
+  Werte annehmen können.
+
+-->
+
+<!ELEMENT beverage (image?, description+, drink-at, drink-at, package*)>
+<!ATTLIST beverage
+	name			CDATA			#REQUIRED
+	brewery-id		IDREF			#REQUIRED
+	alc-by-vol		CDATA			#REQUIRED
+>
+
+<!ELEMENT description (#PCDATA)>
+<!ATTLIST description
+	headline		CDATA		#IMPLIED
+>
+
+<!ELEMENT package EMPTY>
+<!ATTLIST package
+	volume		CDATA						#REQUIRED
+	type		(bottle | can | cask)		#REQUIRED
+	price		CDATA						#REQUIRED
+>
+
+

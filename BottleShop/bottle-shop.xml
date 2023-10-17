@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bottle-shop SYSTEM "bottle-shop.dtd">
+<bottle-shop>
+    
+    <brewery id="egger" name="Brauerei Egg" country="Austria"/>
+    <brewery id="dog" name="Brewdog"/>
+    <brewery id="ge" name="GeBräu" country="Austria"/>
+    <brewery id="gode" name="Gôde" country="France"/>
+    
+    <beverage name="Drank Sinatra" brewery-id="egger" alc-by-vol="8.5">
+        <description>
+            Dieses Bier erscheint im Glas in einer schönen rotgoldenen Farbe.
+            Der Geruch nach Apfel, Birne, Quitte und etwas Vanille vermischt sich mit einem angenehmen Rum- und Barriquearoma.
+            Im Geschmack sind deutliche Noten von Dörrobst und Rum erkennbar.
+            Diese Eindrücke werden begleitet von einem weichen, feinherben Mundgefühl und einem langen, wärmenden Nachtrunk.        
+        </description>
+        <drink-at min-temp="10" max-temp="12" unit="C"/>
+        <drink-at min-temp="50" max-temp="54" unit="F"/>
+        <package volume="0.75" type="bottle" price="19.90"/>
+        <package volume="0.50" type="bottle" price="15.90"/>
+        <package volume="0.33" type="can" price="10.90"/>
+        <package volume="20.00" type="cask" price="150.00"/>
+    </beverage>
+
+    <beverage name="Abstarkt 23" brewery-id="dog" alc-by-vol="11.5">
+    	<image>https://d2j6dbq0eux0bg.cloudfront.net/images/37281003/3101015275.jpg</image>
+        <description>
+            Das Abstrakt 23 ist ein Barley Wine und wurde zwei Jahre in Bourbon Fässern gereift.
+        </description>
+        <description>
+            Ein unglaublich toll ausbalanciertes Bier mit Aromen von Toffee, kandierten Orangen,
+            getrockneten Beeren und etwas Sherry mit einem angenehm wärmendem Nachtrunk.
+        </description>
+        <drink-at min-temp="10" max-temp="12" unit="C"/>
+        <drink-at min-temp="50" max-temp="54" unit="F"/>
+        <package volume="0.375" type="bottle" price="10.90"/>
+    </beverage>
+    
+    <beverage name="Abstarkt 19" brewery-id="dog" alc-by-vol="13.1">
+    	<image>https://d2j6dbq0eux0bg.cloudfront.net/images/37281003/3100979093.jpg</image>
+        <description>
+            Das Abstrakt 19 ist ein sehr komplexes Bier welches eine Mischung von zwei verschiedenen Saison Bieren ist.
+        </description>
+        <description>
+            Die Aromen erinnern an getrocknete, dunkle Früchte - leicht rauchig, Toffee, Lakritz und leicht würzige
+            Noten runden das sehr kräftige Bier ab. 
+        </description>
+        <drink-at min-temp="10" max-temp="12" unit="C"/>
+        <drink-at min-temp="50" max-temp="54" unit="F"/>
+        <package volume="0.375" type="bottle" price="26.90"/>
+        <package volume="0.75" type="cask" price="48.90"/>
+    </beverage>
+    
+    <beverage name="Champagner-Bier" brewery-id="gode" alc-by-vol="11.5">
+    	<image>https://d2j6dbq0eux0bg.cloudfront.net/images/37281003/3562939416.png</image>
+        <description headline="Aussehen">
+            GÔDE erscheint in einer hellen, klaren goldenen Farbe mit einem Aufperlen, das an den König der Schaumweine erinnert,
+            mit seinen dünnen und lebhaften Bläschen, die endlos unter einem leichten und luftigen, nicht anhaltenden Schaum, tanzen.
+        </description>
+        <description headline="Aroma">
+            GÔDE bringt eine leicht blumige und fruchtige Note mit einer deutlichen Würze hervor.
+            Aromen von reifer Banane, Piment, grüne Apfelschalen, unreife Birnen und einen Hauch Mädesüß lassen sich erkennen.
+            Gerstenmalz verleiht dem Bier eine dezente Karamellnote.
+            Mit seinem sehr trockenen und knackigen Geschmack ist GÔDE zweifellos ein feines Bier und ein wahrer Genuss.
+        </description>
+        <drink-at min-temp="8" max-temp="10" unit="C"/>
+        <drink-at min-temp="46" max-temp="50" unit="F"/>
+        <package volume="0.75" type="bottle" price="28.90"/>
+    </beverage>
+    
+    <beverage name="DOG B" brewery-id="dog" alc-by-vol="15.1">
+    	<image>https://d2j6dbq0eux0bg.cloudfront.net/images/37281003/3101050964.jpg</image>
+    	<description>
+	    	Das DOG B ist ein Imperial Stout.
+        </description>
+        <description>
+			Dieses Bier wurde mit Kakao- und Kaffeebohnen und Naga Chili eingebraut.
+			(Rio Caribe Kakao, Sertao Carmo de Minas Kaffee) 
+			Deutliche Röstaromen mit angenhem herben und scharfen Nachtrunk machen das Bier für Stout Liebhaber
+			zu einem tollen Geschmackserlebnis.
+    	</description>
+        <drink-at min-temp="12" max-temp="14" unit="C"/>
+        <drink-at min-temp="54" max-temp="57" unit="F"/>
+    </beverage>
+    
+</bottle-shop>

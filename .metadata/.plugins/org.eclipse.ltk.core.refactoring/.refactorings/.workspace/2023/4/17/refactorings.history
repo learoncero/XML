@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;xml-examples/CarRental/car-rental-bregenz.dtd&apos;" deleteContents="false" description="Delete resource &apos;xml-examples/CarRental/car-rental-bregenz.dtd&apos;" element1="/xml-examples/CarRental/car-rental-bregenz.dtd" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1682328679880"/>
+</session>
